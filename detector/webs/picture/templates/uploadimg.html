@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<hr>
+<img src="/image/upload_image/demo.jpg" alt="" height="800" width="800"/>
+<hr>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="img">
+    <button type="submit">上传</button>
+</form>
+</body>
+</html>
