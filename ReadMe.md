@@ -1,9 +1,9 @@
 红灯笼检测：  
  １.　使用的是hog+svm传统的机器学习物体检测.   
  2.　模块描述:  
-     ── data
-│   ├── config
-│   │   └── config.cfg
+     ── data   
+│   ├── config   
+│   │   └── config.cfg   
 │   └── models  --模型  
 │       ├── svm.model  
 │       ├── svm.model_01.npy  
@@ -97,9 +97,9 @@
 │           ├── urls.pyc  
 │           ├── wsgi.py  
 │           └── wsgi.pyc  
-├── ReadMe.md　　
-└── tool　　
-    ├── __init__.py
+├── ReadMe.md   
+└── tool   
+    ├── __init__.py  
     ├── produceImage.py 通过旋转,变形制造更多的训练图像出来.  
 使用简单介绍:  
    1. 首先自定义好pos和neg，也就是正样本和负样本训练集合.需要注意的是pos中的图片要尽可能的去除无关背景.同时pos和neg都需要灰度化,hog只能对2d
