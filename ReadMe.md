@@ -1,5 +1,5 @@
-红灯笼检测：　　
-　１.　使用的是hog+svm传统的机器学习物体检测.　　
+红灯笼检测：    　
+　１.　使用的是hog+svm传统的机器学习物体检测.  　　　 　
 　2.　模块描述:  
      ── data
 │   ├── config
@@ -110,11 +110,16 @@
       python manage.py migrate  
       python manage.py runserver 127.0.0.1:8080  
  效果图：  
-    ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/14.jpg)　　　
+    ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/14.jpg)
+      
     ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/1.jpg)　　
+      
     ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/7.jpg)　　　
+      
     ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/15.jpg)　　　
+      
     ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/17.jpg)　　
     ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/19.jpg)　　
-    ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/20.jpg)　　
+      
+    ![image](https://github.com/gongxijun/lantern-detection/blob/master/demo/20.jpg)　　  
     
